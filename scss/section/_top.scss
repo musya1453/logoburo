@@ -1,0 +1,19 @@
+.section-top {
+  background: image-url('bg/top.jpg') no-repeat;
+  @include background-size(cover);
+  background-attachment: fixed;
+  color: #fff;
+
+  h2 {
+    font-size: 48px;
+    font-family: $opensans-regular;
+
+    strong {
+      color: #e60000;
+    }
+
+    span {
+      font-size: 72px;
+    }
+  }
+}
