@@ -16,4 +16,17 @@
       font-size: 72px;
     }
   }
+
+  circle {
+    fill: #fff;
+    stroke: #0088cc;
+    stroke-width: 6;
+    stroke-dasharray: 15 879; /* 2π × 25 ≈ 158 */
+  }
+
+  svg {
+    transform: rotate(-90deg);
+    background: #e5f3fa;
+    border-radius: 50%;
+  }
 }

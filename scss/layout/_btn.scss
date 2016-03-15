@@ -1,6 +1,6 @@
 .btn-wrapp {
 
-  &.style-a a, input {
+  &.style-a a, &.style-a input {
     background: #e60000;
     border: none;
     font-family: $opensans-bold;
@@ -10,10 +10,29 @@
     color: #fff;
     text-decoration: none;
     @include transition(all .3s);
+    display: inline-block;
 
     &:hover {
       background: #fff;
       color: #e60000;
+    }
+  }
+
+  &.style-b a, &.style-b input {
+    background: #fff;
+    border: none;
+    font-family: $opensans-bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 14px 40px;
+    color: #000;
+    text-decoration: none;
+    @include transition(all .3s);
+    display: inline-block;
+
+    &:hover {
+      background: #000;
+      color: #fff;
     }
   }
 
